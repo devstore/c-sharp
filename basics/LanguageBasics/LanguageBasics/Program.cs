@@ -28,6 +28,9 @@ namespace languageBasics
             Vehicle vehicle=new Vehicle();
             Console.WriteLine(vehicle.Brand);
 
+            Car car=new Car();
+            car.honk();//inherited method from Vehicle
+
         }
     }
 }

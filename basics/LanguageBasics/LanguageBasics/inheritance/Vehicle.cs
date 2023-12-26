@@ -17,5 +17,9 @@ namespace LanguageBasics.inheritance
 
         }
 
+        public void honk()
+        {
+            Console.WriteLine("Tuut, tuut!");
+        }
     }
 }
